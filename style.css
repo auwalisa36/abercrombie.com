@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container-fuild{
+  background-image: url(./Assest/img/Inventory-Search.jpg);
+  height: 15rem;
+}
+.container-fuild1{
+  height: 40px;
+}
+.btn{
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+  margin: 15px;
+  padding: 10px;
+}
+.btn :hover{
+  color: gray;
+  background-color: white;
+}
+.card{
+  text-align: center;
+}
+.card-title{
+  margin-top: 17%;
+}
+.card-img-overlay h1 {
+  font-family: garamond-premier-pro,serif !important;
+  font-weight: 100;
+  font-variant-ligatures: none;
+  letter-spacing: 0em;
+  line-height: 1.1;
+}
+.card-img-overlay p {
+  font-family: Trade Gothic,sans-serif;
+  letter-spacing: .03em;
+  line-height: 1.4;
+}
+.text{
+  color: white;
+  text-align: center;
+}
+.text h1 {
+  font-family: garamond-premier-pro,serif !important;
+  font-weight: 100;
+  font-variant-ligatures: none;
+  letter-spacing: 0em;
+  line-height: 1.1;
+}
+.text p {
+  font-family: Trade Gothic,sans-serif;
+  letter-spacing: .03em;
+  line-height: 1.4;
+}
+.text a{
+  color: white;
+}
+.container-fluid4{
+  text-align: center;
+  margin: 7%;
+}
+.container-fluid5{
+  height: 30rem;
+ background-color: gray;
+}

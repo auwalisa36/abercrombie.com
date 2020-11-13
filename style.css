@@ -7,6 +7,9 @@
   background-image: url(./Assest/img/Inventory-Search.jpg);
   height: 15rem;
 }
+.container-fluid10{
+  height: 60px;
+}
 .container-fuild1{
   height: 40px;
 }
@@ -42,6 +45,7 @@
 .text{
   color: white;
   text-align: center;
+  position: relative;top: 18%;
 }
 .text h1 {
   font-family: garamond-premier-pro,serif !important;
@@ -65,4 +69,119 @@
 .container-fluid5{
   height: 30rem;
  background-color: gray;
+}
+.navbar-collapse a{
+ font-weight: 700;
+ margin: 5px;
+ font-size: 14px;
+}
+.navbar-brand{
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 26px;
+  margin: 10px;
+}
+.form-inline{
+  margin-right: 1%;
+}
+.immage{
+  margin-right: 0px;
+  display: flex;
+}
+.immage img{
+margin-right: 10px;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  /* min-width: 580px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+}
+.content{
+  display: flex;
+}
+.content h6{
+  padding: 70px;
+}
+.content a{
+  padding-left: 20px;
+}
+.dropdown-content a {
+  color: rgb(121, 119, 119);
+   padding: 0 10px ;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+   border-bottom: 1px solid black;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {
+ border-bottom: 2px solid black;
+}
+.navbar-dark{
+  color: white;
+}
+.naval a{
+ padding: 15px;
+ width: 10%;
+ background-color: rgb(75, 75, 75);
+ min-width: 40px;
+ font-size: 20px;
+}
+.vaval a{
+  color: white;
+}
+.footer a{
+  color: #ffff;
+}
+.footer{
+  display: flex;
+}
+.footter{
+  margin: 50px;
+  position: relative;left: 17%;top: 105px;
+}
+.footter h6{
+  margin: 10px;
+}
+@media screen and (min-width: 1025px) {
+  .daa{
+    display: none;
+  }
+  .dropdown11{
+    display: none;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .skulls{
+    display: none;
+  }
+  .daa a{
+    color: #ffff;
+    position: relative;left: 15%;
+  }
+  .dropdown11{
+    max-resolution: right 20px;
+  }
+}
+.card-img-overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  border-radius: calc(.25rem - 1px);
+}
+.card-img-overlay1 button {
+  position: relative;left: 490px; bottom:  100px;
+  padding: 20px 30px 20px 30px;
 }

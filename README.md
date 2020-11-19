@@ -21,7 +21,7 @@ https://https://github.com/auwalisa36/abercrombie.com.git
 
 
 # Live Demo
-This is alive demo ( https://raw.githack.com/auwalisa36/Hotels.ng-Clone/home-branch/index.html )
+This is alive demo ( https://raw.githack.com/auwalisa36/abercrombie.com/main/index.html )
 
 # Author
 Auwal Isa
